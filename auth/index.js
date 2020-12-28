@@ -24,7 +24,7 @@ const check={
         }
     },
     logged:function (req){
-        const decode=decodeHeader(req);
+        const decoded=decodeHeader(req);
     }
 }
 
